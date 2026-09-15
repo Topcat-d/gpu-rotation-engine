@@ -1,5 +1,9 @@
 # GPU Rotation Engine
 
+We build an open-source GPU engine that encrypts data and rotates encryption keys without stopping the application. For example, a storage service can switch to a new key for incoming files while keeping older files readable with their original keys.
+
+## What's included
+
 This repository includes the GPU engine, C ABI, encryption/decryption kernels,
 rotation implementation, precomputation tables, generators, and runnable tests.
 The standalone SDK does not require Smoke Suite, its gateway, or PyTorch.
