@@ -1,0 +1,7 @@
+build*/
+install/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+rotation-report.json

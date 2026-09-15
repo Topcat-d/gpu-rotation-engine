@@ -1,0 +1,18 @@
+GPU Rotation Engine
+
+Derived from the Smoke GPU Cryptographic Engine. Existing C ABI names are
+preserved for compatibility. This repository contains a standalone native source
+snapshot and does not include the upstream repository's private history.
+
+Original project material is licensed under Apache License 2.0 unless a file
+explicitly identifies a different license. See LICENSE for the full terms.
+
+The following existing core/aes files retain their MIT SPDX identifiers:
+  aes_binding.cpp, aes_binding_phase2e.cpp, aes_binding_phase3.cpp
+  aes_kernel.cu, aes_kernel_phase2e.cu, aes_kernel_phase3.cu
+  aes_launcher.cu, aes_launcher_phase2e.cu, aes_launcher_phase3.cu
+The MIT license text is provided in LICENSES/MIT.txt. Preserve existing notices.
+
+CUDA, PyTorch, and other external dependencies have their own licenses. This
+release does not relicense those dependencies or externally sourced test data.
+Keep the source attribution and notices associated with test vectors.

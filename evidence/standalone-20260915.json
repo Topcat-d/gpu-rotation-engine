@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "library_sha256": "f6d9c2c2dbfd05dc84ff88e1f18f6dd7677315f224f7ae99206459d92d62560a",
+  "device_index": 0,
+  "tables": {
+    "comb": "w8",
+    "fullwindow_enabled": true,
+    "fullwindow_sha256": "dbe88875e99034dc395b8101fcc42d0462bd8cd080fab5dd8e40ee7c49142b79"
+  },
+  "p256": {
+    "signatures_verified": 12,
+    "rotations": 2
+  },
+  "aead": {
+    "algorithms": [
+      "AES-256-GCM",
+      "ChaCha20-Poly1305"
+    ],
+    "rotations": 4,
+    "sync_rotations": 2,
+    "async_rotations": 2,
+    "roundtrips_verified": 120,
+    "plaintext_sizes": [
+      0,
+      1,
+      4,
+      16,
+      17,
+      20,
+      32,
+      64,
+      255,
+      1024,
+      4096,
+      65535
+    ],
+    "tamper_rejection": true,
+    "wrong_key_rejection": true,
+    "previous_epoch_decryption": true,
+    "async_fence_enforced": true,
+    "archived_records_restored": 24
+  },
+  "gpu_operations": 616,
+  "scope": "sequential installed C ABI validation; no AAD; not a throughput or concurrency claim"
+}
